@@ -1,6 +1,8 @@
 # JavaFX-All
 Links and documentation on javaFX libs or projects
 
+# Installation
+[https://openjfx.io/openjfx-docs/](https://openjfx.io/openjfx-docs/)
 
 # Awesome JavaFX [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
