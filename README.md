@@ -1,6 +1,8 @@
 # JavaFX-All
 Links and documentation on javaFX libs or projects
 
+https://github.com/Oshan96/CustomStage/wiki
+
 # Installation and VM Arguments setting
 [https://openjfx.io/openjfx-docs/](https://openjfx.io/openjfx-docs/)
 
