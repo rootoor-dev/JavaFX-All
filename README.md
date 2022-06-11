@@ -1,9 +1,28 @@
 # JavaFX-All
 Links and documentation on javaFX libs or projects
 
-# Installation
+# Installation and VM Arguments setting
 [https://openjfx.io/openjfx-docs/](https://openjfx.io/openjfx-docs/)
 
+```
+ECLIPSE
+
+Run -> Run Configurations -> Arguments tab -> VM arguments
+ 
+Then add this in Arguments > VM arguments:
+
+--module-path ${project_classpath:REPLACE_ME_WITH_YOUR_PROJECT_NAME} --add-modules javafx.controls,javafx.fxml
+
+--module-path "C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\lib" --add-modules javafx.controls,javafx.fxml
+
+the modules : javafx.controls,javafx.fxml,javafx.media,javafx.graphics,javafx.base,
+
+This simple line works on Windows 10 JavaFx 11 --module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml,javafx.media 
+
+https://docs.gluonhq.com/#_the_gluon_plugin_for_eclipse
+
+
+```
 # Awesome JavaFX [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of awesome JavaFX frameworks, libraries, books etc... .
