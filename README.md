@@ -6,6 +6,16 @@ https://github.com/Oshan96/CustomStage/wiki
 # Installation and VM Arguments setting
 [https://openjfx.io/openjfx-docs/](https://openjfx.io/openjfx-docs/)
 
+# JavaFX Flexbox simulation
+
+```
+<dependency>
+  <groupId>com.dukescript.amaronui.layouts</groupId>
+  <artifactId>jfxflexbox</artifactId>
+  <version>0.5</version>
+</dependency>
+```
+
 ```
 ECLIPSE
 
